@@ -4,11 +4,11 @@ using namespace std;
 
 int main(){
     int a;
-    *p;
+    int *p;
 
     a = 10;
-    p = a;
-    
+    p = &a;
+
     cout << &a << endl;
     cout << *p << endl;
 }
